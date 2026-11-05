@@ -2,7 +2,7 @@
 
 Build guide and code for the University of Maine F1TENTH car: a 1/10 RC car with a Jetson, VESC and Hokuyo lidar that maps a building by itself (SLAM Toolbox + Nav2 + a frontier explorer, ROS 2 Humble).
 
-**Start with the [wiki](https://github.com/StepLogic/f1tenth-umo/wiki):** parts list, chassis build, Jetson and VESC setup, then running exploration.
+**Start with the [wiki](https://github.com/CVAR-maine/f1tenth-umo/wiki):** parts list, chassis build, Jetson and VESC setup, then running exploration.
 
 ## Build timelapse
 
