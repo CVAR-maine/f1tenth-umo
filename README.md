@@ -8,7 +8,7 @@ Build guide and code for the University of Maine F1TENTH car: a 1/10 RC car with
 
 [![Build timelapse preview. Click to play the full video.](media/build-timelapse-preview.gif)](media/f1tenth_build_timelapse.mp4)
 
-The whole build in 2:36 ([full video, MP4](media/f1tenth_build_timelapse.mp4)). Step-by-step instructions are in the wiki, and every connection is on the [Wiring](https://github.com/StepLogic/f1tenth-umo/wiki/Wiring) page.
+The whole build in 2:36 ([full video, MP4](media/f1tenth_build_timelapse.mp4)). Step-by-step instructions are in the wiki, and every connection is on the [Wiring](https://github.com/CVAR-maine/f1tenth-umo/wiki/Wiring) page.
 
 ## Layout
 
@@ -21,10 +21,10 @@ The whole build in 2:36 ([full video, MP4](media/f1tenth_build_timelapse.mp4)). 
 
 ## Quick start (on the car)
 
-Once the [Jetson setup](https://github.com/StepLogic/f1tenth-umo/wiki/Jetson-Setup) is done (ROS 2 Humble and the F1TENTH driver stack in `~/f1tenth_ws`):
+Once the [Jetson setup](https://github.com/CVAR-maine/f1tenth-umo/wiki/Jetson-Setup) is done (ROS 2 Humble and the F1TENTH driver stack in `~/f1tenth_ws`):
 
 ```bash
-git clone https://github.com/StepLogic/f1tenth-umo.git ~/f1tenth-umo
+git clone https://github.com/CVAR-maine/f1tenth-umo.git ~/f1tenth-umo
 ln -s ~/f1tenth-umo/f1tenth_exploration ~/f1tenth_exploration   # the scripts expect this path
 cd ~/f1tenth_exploration
 ./run_exploration.sh --no-drive   # bring everything up without driving, then check it
@@ -32,4 +32,4 @@ cd ~/f1tenth_exploration
 ./run_exploration.sh --kill       # stop
 ```
 
-The car drives itself: read the safety notes in [Running Exploration](https://github.com/StepLogic/f1tenth-umo/wiki/Running-Exploration) first.
+The car drives itself: read the safety notes in [Running Exploration](https://github.com/CVAR-maine/f1tenth-umo/wiki/Running-Exploration) first.
